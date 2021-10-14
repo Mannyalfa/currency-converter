@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body {
+    background-image: url("../images/currency.jpg");
+    background-repeat:  no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    max-height: fit-content;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -14,6 +20,7 @@ body {
 }
 h1 {
     color: #364547;
+    text-align: center;
     margin-bottom: .05em;
 }
 .container .box {
@@ -28,7 +35,7 @@ select {
     height: 40px;
     font-size: 1em;
     outline: none;
-    background: #7868e6;
+    background: #091fe9;
     color: white;
     margin: 0.2em 0;
     padding: 0 1em;
@@ -42,14 +49,14 @@ font-size: 1em;
 margin: 00.2em 0;
 border-radius: 10px;
 border: none;
-background: #edeef7;
+background: #dfdfe2;
 outline: none;
 padding: 0 1em;
 }
 .btn {
 width: 98%;
 height: 40px;
-background: #364547;
+background: rgb(31, 53, 53);
 color: white;
 border-radius: 10px;
 border: none;
@@ -57,3 +64,14 @@ cursor: pointer;
 font-size: 1em;
 margin: 00.5em 0;
 }
+#reset-btn{
+    width: 98%;
+    height: 40px;
+    background: #41070f;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 00.5em 0;
+    }
