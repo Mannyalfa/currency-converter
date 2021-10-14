@@ -8,7 +8,7 @@ body {
     background-image: url("../images/currency.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     max-height: auto;
     height: 100vh;
@@ -20,7 +20,7 @@ body {
     width: 450px;
 }
 h1 {
-    color: #364547;
+    color: #000000;
     text-align: center;
     margin-bottom: .05em;
 }
