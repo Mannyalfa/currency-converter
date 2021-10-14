@@ -6,10 +6,11 @@
 }
 body {
     background-image: url("../images/currency.jpg");
-    background-repeat:  no-repeat;
-    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    max-height: fit-content;
+    max-height: auto;
     height: 100vh;
     display: flex;
     justify-content: center;
