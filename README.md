@@ -54,7 +54,7 @@ MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https
   
 ## Image:
 
-![screenshot]()
+![screenshot](https://github.com/Mannyalfa/currency-converter/blob/main/assets/images/screenshot.jpg)
 
 
 ## Repository URL
